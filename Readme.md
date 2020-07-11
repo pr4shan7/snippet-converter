@@ -1,3 +1,3 @@
 # snippet-converter
 
-A simple command line utility to convert Sublime Text code snippets into VS Code snippets and vice versa.
+A simple command line utility to export Sublime Text code snippets to VS Code.
