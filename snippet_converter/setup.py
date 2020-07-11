@@ -4,7 +4,7 @@ import json
 
 
 def run() -> None:
-    """Set up variables.json file with defaults."""
+    """Set up variables file with defaults."""
 
     variables = {}
     variables['SUBLIME_SNIPPET_PATH'] = os.path.expanduser(
@@ -17,7 +17,8 @@ def run() -> None:
         'source.java': 'java'
     }
 
-    variables_file = open('snippet_converter/variables.json', 'w')
+    variables_file = open(os.path.expanduser(
+        '~') + '/.config/snippet-converter-variables.json', 'w')
     json.dump(variables, variables_file, indent=2)
     variables_file.close()
 

@@ -7,7 +7,8 @@ import xml.etree.ElementTree as ET
 def export() -> None:
     """Exports Sublime Text code snippets to VS Code."""
 
-    variables_file = open('snippet_converter/variables.json', 'r')
+    variables_file = open(os.path.expanduser(
+        '~') + '/.config/snippet-converter-variables.json', 'r')
     variables = json.load(variables_file)
     variables_file.close()
 
