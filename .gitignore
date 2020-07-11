@@ -1,4 +1,6 @@
-idea.md
-variables.json
+snippet_converter/variables.json
+
+# *.pyc
+# .pypirc
 
 .vscode/
