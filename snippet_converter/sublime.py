@@ -8,7 +8,7 @@ from snippet_converter.setup import read_vars
 def export() -> None:
     """Exports Sublime Text code snippets to VS Code."""
 
-    variables = read_vars
+    variables = read_vars()
 
     def get_scope(s: str) -> str:
         ret = ''
