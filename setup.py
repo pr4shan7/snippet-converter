@@ -8,7 +8,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     version='0.1a8',
     license='MIT',
-    description='A simple command line utility to export Sublime Text code snippets to VS Code.',
+    description='A simple command line utility to convert and export snippets.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Prashant Tripathi',
