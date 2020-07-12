@@ -35,6 +35,6 @@ setuptools.setup(
         'Programming Language :: Python :: 3',
         'Operating System :: POSIX :: Linux',
     ],
-    platforms=['Linux'],
+    platforms=['Debian'],
     python_requires='>=3.6',
 )
