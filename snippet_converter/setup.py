@@ -3,6 +3,12 @@ import os
 import json
 
 
+def done() -> bool:
+    """Checks if the variables file is setup."""
+
+    return 'snippet-converter-variables.json' in os.listdir(os.path.expanduser('~') + '/.config/')
+
+
 def run() -> None:
     """Set up variables file with defaults."""
 

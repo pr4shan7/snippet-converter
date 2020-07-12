@@ -4,7 +4,10 @@ from snippet_converter import setup, sublime
 
 
 def run() -> None:
-    setup.run()
+    """Entry point for scli command."""
+
+    if not setup.done():
+        setup.run()
     sublime.export()
 
 
