@@ -1,4 +1,8 @@
 # *.pyc
 # .pypirc
 
+build/
+dist/
+snippet_converter.egg-info/
+
 .vscode/
