@@ -22,7 +22,7 @@ setuptools.setup(
     # scripts=['bin/snippet-converter'],
     entry_points={
         'console_scripts': [
-            'snippet-converter = snippet_converter.cli:run',
+            'scli=snippet_converter.cli:run',
         ],
     },
     keywords=['snippet'],
