@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name='snippet-converter',
     packages=setuptools.find_packages(),
-    version='0.1a5',
+    version='0.1a6',
     license='MIT',
     description='A simple command line utility to export Sublime Text code snippets to VS Code.',
     long_description=long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
     author='Prashant Tripathi',
     author_email='pr4shan7@gmail.com',
     url='https://github.com/pr4shan7/snippet-converter',
-    download_url='https://github.com/pr4shan7/snippet-converter/archive/v0.1-alpha.5.tar.gz',
+    download_url='https://github.com/pr4shan7/snippet-converter/archive/v0.1-alpha.6.tar.gz',
     project_urls={
         'Bug Reports': 'https://github.com/pr4shan7/snippet-converter/issues',
         'Source': 'https://github.com/pr4shan7/snippet-converter',
