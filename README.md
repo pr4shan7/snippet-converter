@@ -13,5 +13,6 @@ pip install snippet-converter
 ## Usage
 
 ```shellscript
-scli
+$ scli
+Sublime snippets successfully exported to VS Code!
 ```
